@@ -1,0 +1,63 @@
+body{
+
+text-align:center;
+background-color: #7a5c59;
+
+}
+
+#player-1 , #player-2{
+
+background-color: 
+#a68380;
+
+width:500px;
+height: 100px;
+
+border-radius: 30px;
+}
+
+button {
+
+    border-radius: 20px;
+    color:#a68380;
+    height:30px;
+    width:70px;
+}
+
+#player1name, #player2name {
+
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+#player1 , #player2 {
+
+display:inline-block;
+
+}
+
+#word {
+    width: 60%;
+}
+
+#word_display{
+    letter-spacing: 5px;
+}
+
+#output{
+
+background:white;
+border-radius:10px;
+border-top:10px solid #aa4465;
+padding:10px;
+float:none;
+text-align:left;
+
+}
+
+#question_turn , #answer_turn {
+
+font-size: 28px;
+
+}

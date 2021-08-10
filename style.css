@@ -1,6 +1,5 @@
 body{
 
-text-align:center;
 background-color: #7a5c59;
 
 }
@@ -24,7 +23,7 @@ button {
     width:70px;
 }
 
-#player1name, #player2name {
+#player1, #player2 {
 
     display: inline-block;
     margin-left: 20px;
@@ -58,6 +57,6 @@ text-align:left;
 
 #question_turn , #answer_turn {
 
-font-size: 28px;
+font-size: 28px3;
 
 }

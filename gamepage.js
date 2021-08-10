@@ -4,12 +4,11 @@ var score2=0;
 var name1 = localStorage.getItem("name1");
 var name2 = localStorage.getItem("name2");
 
-document.getElementById("player1name").innerHTML = name1;
-document.getElementById("player2name").innerHTML = name2;
+document.getElementById("player1name").innerHTML = name1 + " : ";
+document.getElementById("player2name").innerHTML = name2 + " : ";
 
-
-
-
+document.getElementById("player1").innerHTML = name1 + " - ";
+document.getElementById("player2").innerHTML = name2 + " - ";
 
 
 

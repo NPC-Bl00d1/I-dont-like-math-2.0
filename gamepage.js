@@ -39,17 +39,57 @@ document.getElementById("output").innerHTML = row;
 document.getElementById("number1").value = "";
 document.getElementById("number2").value = "";
 
-player_answer = document.getElementById("input_check_box").value;
 
 }
 
+question_turn = "player 1";
+answer_turn = "player 2";
+
 function check() {
 
+    player_answer = document.getElementById("input_check_box").value;
+
 if( player_answer == real_answer ){
+ 
+    if( answer_turn == "player 1"){
 
-score = score + 1;
+  updatescore1 = score1 +1;
 
-document.getElementById("score").innerHTML = score;
+document.getElementById("score1").innerHTML = updatescore1;
+
+    }
+    else{
+
+updatescore2 = score2 + 1;
+document.getElementById("score2").innerHTML = updatescore2;
+
+    }
+
+}
+
+if(question_turn == "player 1"){
+
+question_turn = "player 2";
+document.getElementById("question_turn").innerHTML = "Question Turn - " + question_turn;
+
+}
+else{
+
+    question_turn = "player 1";
+    document.getElementById("question_turn").innerHTML = "Question Turn - " + question_turn;
+
+}
+
+if(answer_turn == "player 1"){
+
+answer_turn = "player 2";
+document.getElementById("answer_turn").innerHTML = "Answer Turn - " + answer_turn;
+
+}
+else{
+
+    answer_turn = "player 1";
+    document.getElementById("answer_turn").innerHTML = "Answer Turn - " + answer_turn;
 
 }
 

@@ -93,4 +93,7 @@ else{
 
 }
 
+
+document.getElementById("number1").innerHTML = "";
+document.getElementById("number2").innerHTML = "";
 }

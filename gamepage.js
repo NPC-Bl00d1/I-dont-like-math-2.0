@@ -94,6 +94,7 @@ else{
 }
 
 
-document.getElementById("number1").innerHTML = "";
-document.getElementById("number2").innerHTML = "";
+document.getElementById("number1").value = "";
+document.getElementById("number2").value = "";
+document.getElementById("output").innerHTML ="";
 }
